@@ -19,3 +19,6 @@ Route::get('contacto', function(){
     return view('contacto');
 });
 
+Route::get('menu', function(){
+    return view('menu');
+});
