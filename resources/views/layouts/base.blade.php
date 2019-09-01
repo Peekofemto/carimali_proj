@@ -12,7 +12,6 @@
     <title>Carimali</title>
   </head>
   <body>
-    <h1>Hell!</h1>
 
      <!-- Header -->
      @include('layouts.header')
@@ -20,6 +19,8 @@
 
     @yield('contenido')
     
+
+    @include('layouts.footer')
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
