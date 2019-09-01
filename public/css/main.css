@@ -1,3 +1,83 @@
+/* ****************************** Home *****************************************************************/
 .carousel-item img{
-    height: 24vw;
+    height: 38vw;
 }
+
+.section-title{
+    margin: 3.5vw;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.offers{
+    margin: 1.4rem 0;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.car-descr{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+
+    border-bottom: 4px solid #aaaaaa;
+}
+
+.offers-2{
+    background-color: rgb(7, 7, 7);
+    margin: 1.4rem 0;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame_yout{
+    align-content: center;
+    width: 50%;
+    height: 300px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  
+    .frame_yout{
+        width: 100%;
+        height: 399px;
+    }
+    
+  }
+
+/* ********************************************Footer **************************************************/
+.footer{
+    width: 100%;
+    background-color: #000;
+    color: white;
+
+    text-align: center;
+    font-size: 10px;
+
+    position: relative;
+}
+
+@media (min-width: 992px){
+    .footer{
+        position: relative;
+    }
+
+    .foot-sub{
+        font-size: 25px;
+    }
+
+    .foot-subtitle{
+        font-size: 20px;
+    }
+}
+
+
+.foot-sub{
+    margin-top: 1vw;
+}
+
